@@ -64,9 +64,9 @@ Por ejemplo:
 java -jar target/entity-scanner-0.0.1-SNAPSHOT.jar /ruta/a/tu/proyecto/src/main/java
 ```
 
-### Configuración
+### Configuración Roadmap a futuro
 
-La aplicación puede ser configurada mediante el archivo `application.properties` con las siguientes propiedades:
+-[ ] La aplicación puede ser configurada mediante el archivo `application.properties` con las siguientes propiedades:
 
 ```properties
 entity-scanner.output-directory=output
