@@ -110,4 +110,4 @@ El proyecto está estructurado usando Spring Boot y utiliza las siguientes depen
 
 ## Licencia
 
-(Mit license)[https://opensource.org/license/mit]
+[Mit license](https://opensource.org/license/mit)
