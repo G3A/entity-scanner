@@ -1,6 +1,5 @@
 package co.g3a.entityscanner;
 
-import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.CommandLineRunner;
@@ -8,21 +7,11 @@ import org.springframework.context.annotation.Bean;
 
 import java.util.List;
 
-@SpringBootApplication/*(exclude = {
-        org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.class,
-        org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.class,
-        org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
-        org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.class
-})*/
+@SpringBootApplication
 public class EntityScannerApplication {
 
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(EntityScannerApplication.class);
-        // Desactivar el banner de Spring Boot
-        //app.setBannerMode(Banner.Mode.OFF);
-        // Reducir logs innecesarios
-        //System.setProperty("logging.level.root", "WARN");
-        //System.setProperty("logging.level.org.springframework", "WARN");
         app.run(args);
     }
 
